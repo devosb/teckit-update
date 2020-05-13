@@ -1,0 +1,10 @@
+LHSName	"transliteration"
+RHSName	"tus"
+
+pass(Unicode)
+latin_small_letter_a <> kannada_sign_spacing_candrabindu ; 0C80
+latin_small_letter_b <> masaram_gondi_letter_ka ; 11D0C
+latin_small_letter_c <> nko_taman_sign; 07FF
+; latin_small_letter_d <> telugu_sign_siddham; 0C77
+latin_small_letter_d <> LINEAR_B_SYLLABLE_B008_A
+latin_small_letter_e <> oriya_sign_overline

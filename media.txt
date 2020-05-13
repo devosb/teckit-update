@@ -1,0 +1,18 @@
+teckit-2.5.10_dmg
+TECkit-2.5.10.dmg
+TECkit 2.5.10 for macOS
+
+teckit-2.5.10_zip
+TECkit-2.5.10.zip
+TECkit 2.5.10 for Windows
+
+TECkit 2.5.10
+Updated for Unicode 13.0.0
+Updated zlib to version 1.2.11
+Various improvements for compiling and documentation.
+
+Bobby de Vos, Nicolas Spalinger, Neil Mayhew
+2020-05-13
+SIL International
+
+teckit
