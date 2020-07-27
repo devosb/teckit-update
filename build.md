@@ -6,28 +6,25 @@ umask 022
 
 ### xenial
 
-- code code debian-src/changelog
+- code debian-src/changelog
 - _append `+16.04.1` to version_
 - ./build-linux-package.sh
 - DISTRIBUTIONS=xenial pbuilder-pso build-multi teckit-linux/*.dsc
 
 ### bionic
 
-- code code debian-src/changelog
+- code debian-src/changelog
 - _append `+18.04.1` to version_
-
-#### Source
-
-- ./build-linux-package.sh -S
-- pbuilder-pso sign teckit-linux/*.changes
-- pbuilder-pso upload-multi teckit-linux/*.changes
-
-#### Binary
-
 - ./build-linux-package.sh
 - code ~/.pbuilderrc
 - _enable restricted and universe for COMPONENTS_
 - DISTRIBUTIONS=bionic pbuilder-pso build-multi teckit-linux/*.dsc
+
+### Source
+
+- ./build-linux-package.sh -S
+- pbuilder-pso sign teckit-linux/*.changes
+- pbuilder-pso upload-multi teckit-linux/*.changes
 
 ## After inclusion in Debian
 
@@ -37,7 +34,7 @@ umask 022
 - code debian/copyright
 - git commit -a -m "Update packaging for new upstream release"
 
-## eoan
+### eoan
 
 - repack tarball to teckit-2.5.10+19.10.tar.gz
 - gbp import-orig teckit-2.5.10+19.10.tar.gz
@@ -45,7 +42,7 @@ umask 022
 - _append `+19.10-1` to version_
 - gbp buildpackage
 
-## focal
+### focal
 
 - repack tarball to teckit-2.5.10+20.04.tar.gz
 - gbp import-orig teckit-2.5.10+20.04.tar.gz
