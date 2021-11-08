@@ -8,3 +8,4 @@ latin_small_letter_c <> nko_taman_sign; 07FF
 ; latin_small_letter_d <> telugu_sign_siddham; 0C77
 latin_small_letter_d <> LINEAR_B_SYLLABLE_B008_A
 latin_small_letter_e <> oriya_sign_overline
+latin_small_letter_f <> ARABIC_TATWEEL_WITH_TWO_DOTS_BELOW

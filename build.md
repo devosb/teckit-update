@@ -4,13 +4,6 @@ umask 022
 
 ## Before inclusion in Debian
 
-### xenial
-
-- code debian-src/changelog
-- _append `+16.04.1` to version_
-- ./build-linux-package.sh
-- DISTRIBUTIONS=xenial pbuilder-pso build-multi teckit-linux/*.dsc
-
 ### bionic
 
 - code debian-src/changelog
@@ -34,14 +27,6 @@ umask 022
 - code debian/copyright
 - git commit -a -m "Update packaging for new upstream release"
 
-### eoan
-
-- repack tarball to teckit-2.5.10+19.10.tar.gz
-- gbp import-orig teckit-2.5.10+19.10.tar.gz
-- dch -i
-- _append `+19.10-1` to version_
-- gbp buildpackage
-
 ### focal
 
 - repack tarball to teckit-2.5.10+20.04.tar.gz
@@ -49,3 +34,8 @@ umask 022
 - dch -i
 - _append `+20.04-1` to version_
 - gbp buildpackage
+
+### after focal
+
+- _replace 2.5.10 with the current TECkit release version_
+- _replace 20.04 in the instructions above with the correct release date_
