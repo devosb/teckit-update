@@ -1,3 +1,11 @@
+# Updating TECkit in Encoding Converters Core
+
+- cd encoding-converters-core
+- git checkout -b TECkit20yy
+- cp -p -v ../TECkit-*/32-bit/* redist/32bit/
+- cp -p -v ../TECkit-*/64-bit/* redist/64bit/
+- cp -p -v ../TECkit-*/Documentation/*.pdf redist/Help/
+
 # Building Ubuntu packages for PSO
 
 umask 022
