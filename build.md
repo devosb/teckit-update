@@ -2,9 +2,9 @@
 
 - cd encoding-converters-core
 - git checkout -b TECkit20yy
-- cp -p -v ../TECkit-*/32-bit/* redist/32bit/
-- cp -p -v ../TECkit-*/64-bit/* redist/64bit/
-- cp -p -v ../TECkit-*/Documentation/*.pdf redist/Help/
+- cp -p -v -f ../TECkit-2.5.??/32-bit/* redist/32bit/
+- cp -p -v -f ../TECkit-2.5.??/64-bit/* redist/64bit/
+- cp -p -v -f ../TECkit-2.5.??/Documentation/*.pdf redist/Help/
 
 # Building Ubuntu packages for PSO
 
